@@ -14,9 +14,7 @@ const QuestionActor: FC<Props> = ({ actor }) => {
   };
   return (
     <div>
-
-
-   <StyleBorder/>
+      <StyleBorder />
       <h3>Вопрос</h3>
       <span>{actor.question}</span>
       <StyleAnswer
@@ -35,7 +33,6 @@ const QuestionActor: FC<Props> = ({ actor }) => {
         value={review}
         onChange={onChange}
       />
-
     </div>
   );
 };

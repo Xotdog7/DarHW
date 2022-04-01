@@ -1,6 +1,6 @@
-import React from 'react';
-import Main from './pages/main/Main';
-import './App.scss';
+import React from "react";
+import Main from "./pages/main/Main";
+import "./App.scss";
 function App() {
   return (
     <div className="App">

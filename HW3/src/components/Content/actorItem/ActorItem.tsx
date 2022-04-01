@@ -11,7 +11,7 @@ type Props = {
 const ActorItem: FC<Props> = ({ actor }) => {
   return (
     <div className={style.item}>
-      <InfoActor actor={actor}  />
+      <InfoActor actor={actor} />
       <QuestionActor actor={actor} />
     </div>
   );

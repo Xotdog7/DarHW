@@ -4,12 +4,11 @@ import { Actor } from "../../../types";
 
 type Props = {
   actor: Actor;
-
 };
 
-const InfoActor: FC<Props> = ({ actor}) => {
+const InfoActor: FC<Props> = ({ actor }) => {
   return (
-    <div >
+    <div>
       <span>{actor.name}</span>
       <span>{actor.dateOfBirth}</span>
       <span>Фильм: {actor.film} </span>

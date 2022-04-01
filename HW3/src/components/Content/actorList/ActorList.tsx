@@ -5,18 +5,15 @@ import style from "../Content.module.scss";
 
 type Props = {
   actors: Actor[];
-
 };
 const ActorList: FC<Props> = ({ actors }) => {
   return (
     <div>
-
-    <div className={style.itemsRow}>
-      {actors.map((actor) => (
-        <ActorItem key={actor.id} actor={actor} />
-      ))}
-    </div>
-    
+      <div className={style.itemsRow}>
+        {actors.map((actor) => (
+          <ActorItem key={actor.id} actor={actor} />
+        ))}
+      </div>
     </div>
   );
 };

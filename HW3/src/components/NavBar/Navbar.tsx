@@ -5,10 +5,14 @@ const Navbar = () => {
   return (
     <div className={style.left}>
       <li>
-        <Link className={style.none} to="/actor">Актеры</Link>
+        <Link className={style.none} to="/actor">
+          Актеры
+        </Link>
       </li>
       <li>
-        <Link className={style.none} to="/movie">Фильмы</Link>
+        <Link className={style.none} to="/movie">
+          Фильмы
+        </Link>
       </li>
     </div>
   );

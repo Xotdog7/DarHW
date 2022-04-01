@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyleBorder = styled.div<{}>`
-  border-top: 2px solid #C9A66B;
+  border-top: 2px solid #c9a66b;
 `;
 
 export const StyleInput = styled.input<{
